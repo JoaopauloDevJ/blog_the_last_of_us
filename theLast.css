@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    padding: 24px;
+}
+    
+
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, section h2, section h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #000000c5;
+    color: #ffff
+}
+
+header li a {
+    text-decoration: none;
+}
+
+header li:hover {
+    text-decoration: underline;
+}
+
+#sobre .container {
+    display:block;
+}
+
+.sinopse {
+    display: block;
+}
+
+.sinopse h3, p {
+    margin: 15px;
+}
+
+
+header .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header nav li a {
+    font-size: 17px;
+    color:#ffffff;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+#the_last_1 .container img {
+    height: 350px;
+}
+
+#the_last_2 .container img {
+    height: 350px;
+}
+
+section .container {
+    display:flex;
+    justify-content:space-between;
+}
+
+.container {
+    display: block;
+}
+
+section {
+    padding: 25px 0;
+}
+
+section .container {
+    padding: 25px 0;
+}
+
+#the_last_1, #the_last_2, #serie {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#the_last_1 img {
+    height: 680px;
+}
+
+#the_last_2 .container {
+    display: flex;
+}
+
+#the_last_2 .container img {
+    height: 270px;
+}
+
+#sobre {
+    background-color: #00000094;
+    color:#fdfdfd
+}
+
+#serie .container {
+    display: flex;
+}
+
+#serie .container img {
+    height: 350px;
+}
+
+footer {
+    background-color: #000000c5;
+    color:#ffffff;
+    padding: 16px 0;
+}
+
+
+
+
+
+
